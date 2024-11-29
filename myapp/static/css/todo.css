@@ -1,0 +1,70 @@
+#todo-list {
+    max-height: 300px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+#todo-list li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.1);
+}
+.check-bx {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.strike {
+    text-decoration: line-through;
+    color: #888;
+}
+.logout-container {
+    margin: 20px auto; 
+    text-align: center;
+}
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold; 
+    background: #1a75ff; 
+    color: white; 
+    border-radius: 4px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-decoration: none; 
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+.logout-btn:hover {
+    background-color: #0056b3;                                    
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+.logout-btn:focus {
+    outline: 2px solid rgba(0, 123, 255, 0.5); 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
+}
+.logout-btn:active {
+    transform: scale(0.98); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}

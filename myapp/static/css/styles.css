@@ -1,0 +1,94 @@
+.td {
+    width: 450px; 
+    height: 550px;
+    padding: 30px; 
+    padding-top: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#todo-input {
+    width: 100%; 
+    padding: 12px; 
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+.btn {
+    text-decoration: none; /* Remove underline for links styled as buttons */
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6); /* Gradient background */
+    color: white; /* White text */
+    padding: 8px 15px; /* Padding for a comfortable click area */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    border: none; /* No border */
+    display: inline-block; /* Inline-block to allow proper sizing */
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effects */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+.btn:hover {
+    background-color: #0056b3; /* Solid darker blue for hover */
+    transform: scale(1.05); 
+  }
+.navbar .btn {
+    font-size: 14px; /* Slightly smaller font for navbar buttons */
+    padding: 8px 12px; /* Compact padding for the navbar */
+    margin: 0 5px; /* Space between buttons */
+  }
+  .login-btn, .signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+.navbar{
+  margin-left: 80%;
+}
+.auth-buttons{
+  background-color:  #1a75ff;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-btn {
+    background: #1a75ff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.signup-btn {
+    background: #1a75ff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.login-btn:focus, .signup-btn:focus {
+    outline: 2px solid rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+.login-btn:active, .signup-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
